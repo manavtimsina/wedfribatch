@@ -15,6 +15,8 @@ public class OpenURL {
 		System.setProperty("webdriver.edge.driver", "C:\\Selenium\\msedgedriver.exe");	
 		EdgeDriver e = new EdgeDriver();
 		e.get("https://www.facebook.com/");
+		
+		//checking in GitHub
 	}
 
 }
