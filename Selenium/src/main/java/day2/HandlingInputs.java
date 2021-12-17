@@ -12,6 +12,8 @@ ChromeDriver c = new ChromeDriver();
 c.get("https://www.facebook.com/");
 c.findElement(By.name("email")).sendKeys("user@facebook.com");
 c.findElement(By.id("pass")).sendKeys("password");
+		
+		//********************
 	
 	
 	}
