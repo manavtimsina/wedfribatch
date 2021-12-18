@@ -69,5 +69,7 @@ public void enterusernameandpassword() throws IOException{
 @Test(priority = 3,dependsOnMethods = "enterusernameandpassword")
 public void clicklogout() {
 	//browser.findElement(By.xpath("/html/body/div[1]/div/div[3]/ul/li[5]/a")).click();
+	//This ends the program. Check for GitBash
+	
 }
 }
